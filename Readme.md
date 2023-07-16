@@ -18,14 +18,13 @@ To use the Truth Table Generator, follow these steps:
 1. Clone the repository or download the source code files.
 2. Open the terminal and navigate to the project directory.
 3. Compile the source code using a C++ compiler:
-'''sh
-$ g++ truth_table_generator.cpp -o truth_table_generator
-'''
-
+```sh
+g++ truth_table_generator.cpp -o truth_table_generator
+```
 4. Run the program:
-'''sh
-$ ./truth_table_generator
-'''
+```sh
+./truth_table_generator
+```
 
 5. Follow the instructions provided by the program to enter the logical expression.
 6. View the generated truth table.
@@ -37,13 +36,13 @@ The Truth Table Generator requires a C++ compiler that supports C++11 or higher.
 ## Usage
 
 1. Input the logical expression following the provided syntax guidelines:
-- Use '!' for NOT operator.
+- Use '~' for NOT operator.
 - Use '^' for AND operator.
 - Use '|' for OR operator.
 - Enclose sub-expressions in brackets '(' and ')'.
 - Use uppercase letters for variables.
 - Separate each expression or variable with spaces.
-Example: `(!A ^ B) | (C ^ D)`
+Example: `(~A ^ B) | (C ^ D)`
 2. Press Enter to generate the truth table.
 3. The program will display the truth table showing all possible combinations of inputs and the corresponding output values.
 
@@ -51,7 +50,7 @@ Example: `(!A ^ B) | (C ^ D)`
 
 ### Input
 
-Enter the logical expression: `(!A ^ B) | (C ^ D)`
+Enter the logical expression: `(~A ^ B) | (C ^ D)`
 
 ### Output
 
