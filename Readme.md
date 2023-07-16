@@ -18,11 +18,14 @@ To use the Truth Table Generator, follow these steps:
 1. Clone the repository or download the source code files.
 2. Open the terminal and navigate to the project directory.
 3. Compile the source code using a C++ compiler:
-
-g++ truth_table_generator.cpp -o truth_table_generator
+'''sh
+$ g++ truth_table_generator.cpp -o truth_table_generator
+'''
 
 4. Run the program:
-./truth_table_generator
+'''sh
+$ ./truth_table_generator
+'''
 
 5. Follow the instructions provided by the program to enter the logical expression.
 6. View the generated truth table.
